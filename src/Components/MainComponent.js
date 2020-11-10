@@ -37,13 +37,14 @@ export default class MainComponent extends React.Component{
                 </div>
             </div>
         </header>
-        
-        <section  id="about">
+        <div style={{display:"flex",flexDirection:"column"}}>
+        <div style={{padding:30}}></div>
+        <div className="col-10" id="about">
             <div className="container" style={{paddingTop:50,paddingBottom:50}}>
-                <div className="row justify-content-center">
-                    <div className="col-lg-8 text-center">
+                <div className="row">
+                    <div className="col-12 ">
                         <h2 className="text-white">About Us!</h2>
-                        <hr className="divider light my-4" style={{borderColor:'white'}} />
+                        <hr className="light my-4" style={{borderColor:'white'}} />
                         <p className="text-white-0 mb-0" style={{color:"white"}}>07 July 2007 the school was started. 
                         The initial number of students were 60. These 60 students they were from karnipur, 
                         chaduva, Naushera. This school started from the family home in the village, 
@@ -60,53 +61,59 @@ export default class MainComponent extends React.Component{
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div style={{padding:30}}></div>
+                <div className="row">
+                    <div className="col-2"></div>
+                    <div className="col-10" id="team" style={{paddingTop:30,paddingBottom:30}}>
+                        <h2 className="mt-0">Meet our team!</h2>
+                        <hr className="my-4" />
+                        <p className="mb-4 " style={{color:"black"}}>
+                        Our amazing team of regulars and part-time volunteers are committed to helping others. 
+                        We take our convictions and turn them into action. Think you would be a good fit? 
+                        Get in touch for more information!
+                        </p>
+                        <TeamComponent/>
+                    </div>
+        </div>
         
-        <section id="team">
-            <div className="container"  style={{paddingTop:50,paddingBottom:50}}>
-                <h2 className="text-center mt-0">Meet our team!</h2>
-                <hr className="divider my-4" />
-                <p className="mb-4 text-center" style={{color:"black"}}>
-                Our amazing team of regulars and part-time volunteers are committed to helping others. 
-                We take our convictions and turn them into action. Think you would be a good fit? 
-                Get in touch for more information!
-                </p>
-                <TeamComponent/>
-            </div>
-        </section>
-        
-        <section id="donate" style={{backgroundColor:"#fd7e14",color:"white"}}>
-            <div className="container"  style={{paddingTop:50,paddingBottom:50}}>
-                <h2 className="text-center" >Donate</h2>
-                <hr className="divider my-4" style={{borderColor:"white"}} />
-                <p className="mb-4 text-center">
-                    Kindly contribute any amount possible so that we continue our work and these kids get what they deserve.
-                </p>
-
-                <div style={{marginTop:"5vh"}}></div>
-                <h4 className="text-center">Account Number : 12345679010</h4>
-                <h4 className="text-center">IFSC Code: ABCDEF12345</h4>
-
-                <div style={{marginTop:"5vh"}}></div>
-                <h4 className="text-center">Paytm Number: 9235626267</h4>
-
-                <div style={{marginTop:"5vh"}} className="mb-0"></div>
-                <h4 className="text-center">UPI : upiid@bank</h4>
-
-            </div>
-        </section>
-
-        <section id="contact" >
+        <div style={{padding:30}}></div>
+        <div className="col-10" id="donate">
             <div className="container" style={{paddingTop:50,paddingBottom:50}}>
+                <div className="row">
+                    <div className="col-12 ">
+                        <h2 >Donate</h2>
+                        <hr className="my-4" style={{borderColor:"white"}} />
+                        <p className="mb-2">
+                            Kindly contribute any amount possible so that we continue our work and these kids get what they deserve.
+                        </p>
+
+                        <div style={{marginTop:"2vh"}}></div>
+                        <h4 >Account Number : 12345679010</h4>
+                        <h4 >IFSC Code: ABCDEF12345</h4>
+
+                        <div style={{marginTop:"2vh"}}></div>
+                        <h4 >Paytm Number: 9235626267</h4>
+
+                        <div style={{marginTop:"2vh"}} className="mb-0"></div>
+                        <h4>UPI : upiid@bank</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style={{padding:30}}></div>
+        <section id="contact" >
+            <div className="container" style={{paddingTop:20,paddingBottom:20}}>
                 <div className="row justify-content-center">
                     <div className="col-lg-8 text-center">
                         <h2 className="mt-0">Contact</h2>
-                        <hr className="divider my-4"  />
-                        <p className="text-white-0 mb-0" style={{color:"black"}}>Would you like to work with us? Reach out to us over call or send us an email and we will get back to you as soon as possible!</p>
+                        <hr />
+                        <p className="text-white-0 mb-0">Would you like to work with us? Reach out to us over call or send us an email and we will get back to you as soon as possible!</p>
                     </div>
                 </div>
                 
-                <div className="row mt-5">
+                <div className="row mt-1">
                     <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                         <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
                         <div>+91-9235626267</div>
@@ -114,11 +121,12 @@ export default class MainComponent extends React.Component{
                     <div className="col-lg-4 mr-auto text-center">
                         <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
                         
-                        <a className="d-block" href="mailto:rajatkusumwal@gmail.com" style={{color:"black"}}>shivank911@gmail.com</a>
+                        <a className="d-block">shivank911@gmail.com</a>
                     </div>
                 </div>
             </div>
         </section>
+        </div>
       </div>
     );
   };

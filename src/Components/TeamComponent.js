@@ -10,10 +10,10 @@ const services=[
 function RenderService({data,key}){
   return(
     <div className="col-lg-4 col-md-4 text-center">
-        <div className="mt-5">
+        <div className="mt-2">
             <img src={data.image}/>
             <h3 className="h4 mb-2">{data.heading}</h3>
-            <p className="text-muted mb-0">{data.description}</p>
+            <p className="mb-0">{data.description}</p>
         </div>
     </div>
   )
