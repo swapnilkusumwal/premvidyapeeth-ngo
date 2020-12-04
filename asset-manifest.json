@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/premvidyapeeth-ngo/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/premvidyapeeth-ngo/static/js/main.f1f836bf.chunk.js",
+    "main.js.map": "/premvidyapeeth-ngo/static/js/main.f1f836bf.chunk.js.map",
+    "runtime-main.js": "/premvidyapeeth-ngo/static/js/runtime-main.6f6ac5d2.js",
+    "runtime-main.js.map": "/premvidyapeeth-ngo/static/js/runtime-main.6f6ac5d2.js.map",
+    "static/js/2.602fabeb.chunk.js": "/premvidyapeeth-ngo/static/js/2.602fabeb.chunk.js",
+    "static/js/2.602fabeb.chunk.js.map": "/premvidyapeeth-ngo/static/js/2.602fabeb.chunk.js.map",
+    "index.html": "/premvidyapeeth-ngo/index.html",
+    "precache-manifest.b028caf737132cecadc3f2ed846d1a32.js": "/premvidyapeeth-ngo/precache-manifest.b028caf737132cecadc3f2ed846d1a32.js",
+    "service-worker.js": "/premvidyapeeth-ngo/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/premvidyapeeth-ngo/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.602fabeb.chunk.js.LICENSE.txt": "/premvidyapeeth-ngo/static/js/2.602fabeb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f6ac5d2.js",
+    "static/js/2.602fabeb.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.f1f836bf.chunk.js"
+  ]
+}
