@@ -23,7 +23,7 @@ export default class MainComponent extends React.Component{
             <div className="container h-100">
                 <div className="row h-100 align-items-center justify-content-center text-center">
                     <div className="col-lg-10 align-self-end">
-                        <h1 className="text-uppercase text-white font-weight-bold">Our Motto!</h1>
+                        <h1 className="font-weight-bold" style={{color:"white"}}>Our Motto!</h1>
                         <hr className="my-4 divider"/>
                     </div>
                     <div className="col-lg-8 align-self-baseline">
@@ -39,8 +39,8 @@ export default class MainComponent extends React.Component{
         </header>
         <div style={{display:"flex",flexDirection:"column"}}>
         <div style={{padding:30}}></div>
-        <div className="col-10" id="about">
-            <div className="container" style={{paddingTop:50,paddingBottom:50}}>
+        <div className="col-8" id="about">
+            <div className="container" style={{paddingTop:30,paddingBottom:30}}>
                 <div className="row">
                     <div className="col-12 ">
                         <h2 className="text-white">About Us!</h2>
@@ -64,8 +64,8 @@ export default class MainComponent extends React.Component{
         </div>
         <div style={{padding:30}}></div>
                 <div className="row">
-                    <div className="col-2"></div>
-                    <div className="col-10" id="team" style={{paddingTop:30,paddingBottom:30}}>
+                    <div className="col-4"></div>
+                    <div className="col-8" id="team" style={{paddingTop:30,paddingBottom:30}}>
                         <h2 className="mt-0">Meet our team!</h2>
                         <hr className="my-4" />
                         <p className="mb-4 " style={{color:"black"}}>
@@ -78,8 +78,8 @@ export default class MainComponent extends React.Component{
         </div>
         
         <div style={{padding:30}}></div>
-        <div className="col-10" id="donate">
-            <div className="container" style={{paddingTop:50,paddingBottom:50}}>
+        <div className="col-8" id="donate">
+            <div className="container" style={{paddingTop:30,paddingBottom:30}}>
                 <div className="row">
                     <div className="col-12 ">
                         <h2 >Donate</h2>
@@ -89,14 +89,14 @@ export default class MainComponent extends React.Component{
                         </p>
 
                         <div style={{marginTop:"2vh"}}></div>
-                        <h4 >Account Number : 12345679010</h4>
-                        <h4 >IFSC Code: ABCDEF12345</h4>
+                        <h4 >Account Number : 50190011308744</h4>
+
+                        <div style={{marginTop:"2vh"}}></div>
+                        <h4 >IFSC Code: BDBL0001914</h4>
 
                         <div style={{marginTop:"2vh"}}></div>
                         <h4 >Paytm Number: 9235626267</h4>
-
-                        <div style={{marginTop:"2vh"}} className="mb-0"></div>
-                        <h4>UPI : upiid@bank</h4>
+                        
                     </div>
                 </div>
             </div>
@@ -120,8 +120,7 @@ export default class MainComponent extends React.Component{
                     </div>
                     <div className="col-lg-4 mr-auto text-center">
                         <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        
-                        <a className="d-block">shivank911@gmail.com</a>
+                        <a className="d-block">sumanlata18154@gmail.com</a>
                     </div>
                 </div>
             </div>
