@@ -79,7 +79,7 @@ export default class MainComponent extends React.Component{
         
         <div style={{padding:30}}></div>
         <div className="col-8" id="donate">
-            <div className="container" style={{paddingTop:30,paddingBottom:30}}>
+            <div className="container" style={{paddingTop:55,paddingBottom:55}}>
                 <div className="row">
                     <div className="col-12 ">
                         <h2 >Donate</h2>
